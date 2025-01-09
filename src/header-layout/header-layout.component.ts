@@ -7,5 +7,12 @@ import { Component, isStandalone } from "@angular/core";
     styleUrl: "./header-layout.component.scss"
 })
 
-export class HeaderComponent{}
+export class HeaderComponent{
+    title={
+        name : "Hubert Do",
+        dateOfBirth: "30/11/1999"
+    };
+    isDisable = true;
+    altImage = "Logo Angular"
+}
 
